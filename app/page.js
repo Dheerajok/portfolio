@@ -6,8 +6,8 @@ import Hero from "./components/Hero";
 import { InfiniteMovingCardsDemo } from "./components/InfiniteMovingCard";
 import LampDemo from "@/components/ui/lamp";
 import { FloatingNavDemo } from "./components/Navbar";
-import { ThreeDCardDemo } from "./components/Work";
-
+import { AnimatedPinDemo } from "./components/Work";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -43,14 +43,18 @@ export default function Home() {
 
         {/* work content */}
 
-        <div className="container m-auto flex gap-4 px-4 relative bottom-80">
-        <ThreeDCardDemo/>
-        
+        <div className="container m-auto flex flex-wrap gap-4 px-6 relative bottom-72 h-[55vw]">
+        <AnimatedPinDemo/>
         </div>
 
 
         {/* service */}
-         
+        
+
+
+        {/* footer */}
+        <Footer/>
+        
       
 
 
