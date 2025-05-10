@@ -7,7 +7,7 @@ export function InfiniteMovingCardsDemo() {
   return (
     (<div id="testimonials"
       className="h-[30rem] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <h3 className="text-3xl my-4 font-bold">My Clients <span className="bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">Review</span></h3>
+                 <h2 className="text-5xl text font-bold text-center m-auto  py-14">Kind words from <span className="text-purple-300">satisfied clients</span></h2>
       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>)
   );
