@@ -4,7 +4,7 @@ import { PinContainer } from "@/components/ui/3d-pin";
 
 export function AnimatedPinDemo() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[50%] w-[50%] flex items-center justify-center ">
       <PinContainer title="/ui.aceternity.com" href="https://twitter.com/mannupaaji">
         <div
           className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
