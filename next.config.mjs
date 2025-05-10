@@ -8,10 +8,10 @@ const nextConfig = {
         },
       ],
     },
-    webpack(config) {
-      config.plugins.push(require('tailwind-scrollbar-hide'));
-      return config;
-    },
+    // webpack(config) {
+    //   // config.plugins.push(require('tailwind-scrollbar-hide'));
+    //   // return config;
+    // },
   };
   
   export default nextConfig;
