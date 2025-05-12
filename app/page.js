@@ -8,6 +8,7 @@ import { FloatingNavDemo } from "./components/Navbar";
 import { AnimatedPinDemo } from "./components/Work";
 import Footer from "./components/Footer";
 import { CanvasRevealEffectDemo } from "./components/Approch";
+import { AppleCardsCarouselDemo } from "./components/Expirence";
 
 export default function Home() {
 
@@ -34,66 +35,64 @@ export default function Home() {
         </div>
 
 
-         {/* work content */}
+        {/* work content */}
 
-         
 
-         <div className="container m-auto flex flex-wrap px-6 h-[55vw]">
-         <h2 className="text-5xl text font-bold text-center m-auto  py-14">A small selection of <span className="text-purple-300">recent projects</span></h2>
-        <AnimatedPinDemo/>
 
-        <AnimatedPinDemo/>
+        <div className="container m-auto flex flex-wrap px-6 h-[180vh]">
+          <h2 className="text-5xl text font-bold text-center m-auto  py-5">A small selection of <span className="text-purple-300">recent projects</span></h2>
+          <AnimatedPinDemo />
 
-        <AnimatedPinDemo/>
+          <AnimatedPinDemo />
 
-        <AnimatedPinDemo/>
-        
-        
-       
+          <AnimatedPinDemo />
+
+          <AnimatedPinDemo />
+
+
+
         </div>
 
 
-        <div className="container m-auto flex flex-wrap px-6 pt-52 w-full justify-center">
+        <div className="container m-auto flex flex-wrap px-6 pt-52 w-full justify-center h-[120vh]">
 
 
-{/* infinite moving card */}
-<InfiniteMovingCardsDemo />
+          {/* infinite moving card */}
+          <InfiniteMovingCardsDemo />
 
-         </div>
-
-
-        
-
-         <div className="container m-auto flex flex-wrap w-full justify-center h-[100vh]">
-         <h2 className="text-5xl text font-bold text-center m-auto  py-28">My <span className="text-purple-300">work experience</span></h2>
-
-          <div className="expirence-cards flex ">
-       
-          </div>
-         </div>
-       
+        </div>
 
 
-       
-         <div className="container m-auto flex flex-wrap w-full justify-center">
-         <h2 className="text-5xl text font-bold text-center m-auto  py-10">My <span className="text-purple-300">approach</span></h2>
 
-          
 
-            <CanvasRevealEffectDemo/>
-       
-         
-         </div>
+        <div className="container m-auto flex flex-wrap w-full justify-center h-[125vh]">
+          <h2 className="text-5xl text font-bold text-center m-auto  pt-28">My <span className="text-purple-300">work experience</span></h2>
+
+          <AppleCardsCarouselDemo />
+        </div>
+
+
+
+
+        <div className="container m-auto flex flex-wrap w-full justify-center">
+          <h2 className="text-5xl text font-bold text-center m-auto  py-10">My <span className="text-purple-300">approach</span></h2>
+
+
+
+          <CanvasRevealEffectDemo />
+
+
+        </div>
 
 
         {/* service */}
-        
+
 
 
         {/* footer */}
-        <Footer/>
-        
-      
+        <Footer />
+
+
 
 
 
