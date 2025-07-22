@@ -32,7 +32,7 @@ const Hero = () => {
 
                 <div className=" flex justify-center items-center">
                     <div
-                        className="text-4xl mx-auto font-normal text-white-600 dark:text-white-400">
+                        className="text-4xl mx-auto font-normal text-white-600 dark:text-white-400 text-center">
                         Your Favourite
                         <FlipWords words={words} /> <br />
                     </div>
