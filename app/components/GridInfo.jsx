@@ -9,7 +9,7 @@ import {
 
 export function BentoGridSecondDemo() {
   return (
-    (<BentoGrid className="max-w-7xl mx-auto md:auto-rows-[20rem] pt-24" >
+    (<BentoGrid className="max-w-6xl mx-auto md:auto-rows-[12rem] pt-24 px-[1rem]" >
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -17,43 +17,39 @@ export function BentoGridSecondDemo() {
           description={item.description}
           header={item.header}
           className={item.className}
-          icon={item.icon} />
+          icon={item.icon} 
+          classNameText={item.classNameText}/>
       ))}
     </BentoGrid>)
   );
 }
 const Skeleton = () => (
   <div
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl  border border-transparent dark:border-white/[0.2] bg-black-100 dark:bg-black"></div>
+    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl border border-transparent dark:border-white/[0.2] bg-black-100 dark:bg-black"></div>
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "I prioritize client collaboration, fostering open communication",
+    description: "",
     header: <Skeleton />,
-    className: "md:col-span-2",
+    className: "md:col-span-2 bg-BannerImg1 row-span-2 text-3xl sm:w-auto w-[100%]",
     icon: <IconClipboardCopy className="h-4 w-4 text-white-500" />,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "I'm very flexible with time zone communications",
+    description: "",
     header: <Skeleton />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 pb-4 w-[100%] sm:w-[120%]",
     icon: <IconFileBroken className="h-4 w-4 text-white-500" />,
+    classNameText: "text-center relative top-[-7rem] text-[1.7rem]",
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "My tech stack",
+    description: "",
     header: <Skeleton />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 text-3xl w-[100%] sm:w-[120%]",
     icon: <IconSignature className="h-4 w-4 text-white-500" />,
+    classNameText: " relative top-[-3rem] text-[1.7rem]",
   },
-  {
-    title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header: <Skeleton />,
-    className: "md:col-span-2",
-    icon: <IconTableColumn className="h-4 w-4 text-white-500" />,
-  },
+  
 ];

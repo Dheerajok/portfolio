@@ -30,24 +30,24 @@ export default function Home() {
         <BentoGridSecondDemo />
 
         {/* work & projects image grid */}
-        <div className="h-screen w-full">
+        {/* <div className="h-screen w-full">
           <LayoutGrid cards={cards} />
-        </div>
+        </div> */}
 
 
         {/* work content */}
 
 
 
-        <div className="container m-auto flex flex-wrap px-6 h-[180vh]">
+        <div className="container m-auto sm:flex flex-wrap px-6 h-[400vh] sm:h-[180vh] block pt-20">
           <h2 className="text-5xl text font-bold text-center m-auto  py-5">A small selection of <span className="text-purple-300">recent projects</span></h2>
-          <AnimatedPinDemo />
+          <AnimatedPinDemo heading="Social Media Management" desc="Helped businesses & Content Creators in social media." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753191227/Best_AWM_and_M82B_OverPower_Ajjubhai_Gameplay_with_Jontybhai_-_Garena_Free_Fire_1_viy5tc.png" />
 
-          <AnimatedPinDemo />
+          <AnimatedPinDemo heading="Website Development" desc="Created website for the company to enhence online presence." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753191893/Screenshot_2025-07-22_190957_nxphio.png"/>
 
-          <AnimatedPinDemo />
+          <AnimatedPinDemo heading="Video Editor" desc="Edited videos according to client requirement." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753192508/Screenshot_2025-07-22_192424_jmoonl.png" />
 
-          <AnimatedPinDemo />
+          <AnimatedPinDemo heading="Influencer Marketing" desc="Connected to Top Indian Influencers in diffrent categorys." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753192820/Screenshot_2025-07-22_192952_vpbixa.png" />
 
 
 
@@ -65,10 +65,11 @@ export default function Home() {
 
 
 
-        <div className="container m-auto flex flex-wrap w-full justify-center h-[125vh]">
+        <div className="container m-auto flex flex-wrap w-full justify-center h-[100vh] sm:h-[125vh]">
           <h2 className="text-5xl text font-bold text-center m-auto  pt-28">My <span className="text-purple-300">work experience</span></h2>
 
           <AppleCardsCarouselDemo />
+
         </div>
 
 
@@ -175,27 +176,27 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://res.cloudinary.com/djqya1k8g/image/upload/v1753122800/Best_AWM_and_M82B_OverPower_Ajjubhai_Gameplay_with_Jontybhai_-_Garena_Free_Fire_4_g3arde.png",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://res.cloudinary.com/djqya1k8g/image/upload/v1753123506/Screenshot_2025-07-22_001431_tpwtfz.png",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://res.cloudinary.com/djqya1k8g/image/upload/v1753123676/Screenshot_2025-07-22_001736_zac8ub.png",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://res.cloudinary.com/djqya1k8g/image/upload/v1753123676/Screenshot_2025-07-22_001736_zac8ub.png",
   },
 ];
