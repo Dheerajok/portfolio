@@ -7,7 +7,7 @@ export function CanvasRevealEffectDemo() {
   return (
     <>
       <div
-        className="py-20 flex flex-col lg:flex-row items-center justify-center bg-transparent dark:bg-black w-full gap-4 mx-auto px-8">
+        className="pb-20 flex flex-col lg:flex-row items-center justify-center bg-transparent dark:bg-black w-full gap-4 mx-auto px-8">
         <Card title="Planning & Strategy" icon={<AceternityIcon/> } desc="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
           <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900" />
         </Card>
