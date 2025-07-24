@@ -39,8 +39,8 @@ export default function Home() {
 
 
 
-        <div className="container m-auto sm:flex flex-wrap px-6 h-[400vh] sm:h-[180vh] block pt-20">
-          <h2 className="text-5xl text font-bold text-center m-auto  py-5">A small selection of <span className="text-purple-300">recent projects</span></h2>
+        <div className="container m-auto sm:flex flex-wrap px-6 sm:h-[180vh] block pt-20">
+          <h2 className="text-[2rem] sm:text-5xl text font-bold text-center m-auto  py-5">A small selection of <span className="text-purple-300">recent projects</span></h2>
           <AnimatedPinDemo heading="Social Media Management" desc="Helped businesses & Content Creators in social media." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753191227/Best_AWM_and_M82B_OverPower_Ajjubhai_Gameplay_with_Jontybhai_-_Garena_Free_Fire_1_viy5tc.png" />
 
           <AnimatedPinDemo heading="Website Development" desc="Created website for the company to enhence online presence." img="https://res.cloudinary.com/djqya1k8g/image/upload/v1753191893/Screenshot_2025-07-22_190957_nxphio.png"/>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
 
 
-        <div className="container m-auto flex flex-wrap px-6 pt-52 w-full justify-center h-[120vh]">
+        <div className="container sm:pt-[10rem] m-auto flex flex-wrap px-6 w-full justify-center h-[70vh] sm:h-[120vh]">
 
 
           {/* infinite moving card */}
@@ -65,8 +65,8 @@ export default function Home() {
 
 
 
-        <div className="container m-auto flex flex-wrap w-full justify-center h-[100vh] sm:h-[125vh]">
-          <h2 className="text-5xl text font-bold text-center m-auto  pt-28">My <span className="text-purple-300">work experience</span></h2>
+        <div className="container m-auto flex flex-wrap w-full justify-center h-[80vh] sm:h-[100vh]">
+          <h2 className="text-[2rem] sm:text-5xl text font-bold text-center m-auto  pt-28 sm:pt-0">My <span className="text-purple-300">work experience</span></h2>
 
           <AppleCardsCarouselDemo />
 
@@ -76,7 +76,7 @@ export default function Home() {
 
 
         <div className="container m-auto flex flex-wrap w-full justify-center">
-          <h2 className="text-5xl text font-bold text-center m-auto  py-10">My <span className="text-purple-300">approach</span></h2>
+          <h2 className="text-[2rem] sm:text-5xl text font-bold text-center m-auto  py-10">My <span className="text-purple-300">approach</span></h2>
 
 
 
