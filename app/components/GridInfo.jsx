@@ -47,7 +47,7 @@ const items = [
     title: "My tech stack",
     description: "",
     header: <Skeleton />,
-    className: "md:col-span-1 text-3xl w-[100%] sm:w-[120%]",
+    className: "md:col-span-1 bg-BannerImg2 text-3xl w-[100%] sm:w-[120%]",
     icon: <IconSignature className="h-4 w-4 text-white-500" />,
     classNameText: " relative top-[-3rem] text-[1.7rem]",
   },
