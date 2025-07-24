@@ -19,7 +19,7 @@ export default {
 		backgroundImage: {
 
 			BannerImg1: "url('https://res.cloudinary.com/dmuszfenu/image/upload/fl_preserve_transparency/v1747505837/b1_hpsq9z.jpg?_s=public-apps')",
-			BannerImg2: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuztQv2OC4RkixOzT3vHh0eODBHk8cBxQZtA&s')",
+			BannerImg2: "url('https://res.cloudinary.com/djqya1k8g/image/upload/v1753388083/Untitled_design_1_hcknqh.png')",
 			BannerImg3: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuztQv2OC4RkixOzT3vHh0eODBHk8cBxQZtA&s')",
 			BannerImg4: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuztQv2OC4RkixOzT3vHh0eODBHk8cBxQZtA&s')",
 
